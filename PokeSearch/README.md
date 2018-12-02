@@ -6,22 +6,32 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+############################################## Testing the project ###########################################
 
-## Build
+1. Download Node.js by going to www.nodejs.com and downloading the node. Make sure to include npm manager in your installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+2. Once Node and npm have been installed, using windows command prompt, run the following command: npm install -g @angular/cli
 
-## Running unit tests
+3. download this Git respository locally and extracting its contents to a folder of your choice.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Navigate to the folder through the windows command prompt and run the following npm command in the folder: npm install
 
-## Running end-to-end tests
+5. The above npm command will download all of the dependencies needed to run the project.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+6. Once the npm install has finished its job, you can run the following command if no errors were resulted in the previous step: ng        serve. Open up chrome brower if available, and navigate to the url 'http://localhost:4200/
 
-## Further help
+7. If errors resulted in Step 4, Please contact the respository creator for further help!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+############################################### Why build the project in Angular? ####################################
+
+During my call with William, he had mentioned few of the firm's projects were developed using Angular. Having this information, it made sense to display my ability to get a task done in Angular as well.
+
+The project uses interfaces, an OOP technique. I also deviated from using a server database. This was mainly because, we can easily read a JSON file and do mapping on the file using Angular's Http client. 
+
+This choice avoids the task of handing off private DB or server information within a config file either it be a mysql DB or a backend as service such as firebase. 
+
+
+
