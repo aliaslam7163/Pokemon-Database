@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center" class="header">
+  <h1>
+    {{ title }}!
+  </h1>
+  <label> Search by name or type: </label>
+  <input (keyup)="searchPoke($event.target.value)">
+</div>
+<div *ngIf="pokemons" class="flex-container">
+  <div *ngFor="let item of pokemons" class="poke">
+    <h4><strong>Name</strong> : {{item.name}}</h4>
+    <hr>
+    <h4><strong>Type</strong> : {{item.types[0]}} , {{item.types[1]}}  </h4>
+  </div>
+</div>
