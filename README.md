@@ -21,6 +21,6 @@ If errors resulted in Step 4, Please contact the respository creator for further
 
 During my call with William, he had mentioned few of the firm's projects were developed using Angular. Having this information, it made sense to display my ability to get a task done in Angular as well.
 
-The project uses interfaces, an OOP technique. I also deviated from using a server database. This was mainly because, we can easily read a JSON file and do mapping on the file using Angular's Http client.
+The project uses interfaces, an OOP technique. I also deviated from using a server database. This was mainly because, we can easily read a JSON file and do mapping on the file using Angular's Http client. It also is redundant, since a response from a database would also be a JSON object.
 
 This choice avoids the task of handing off private DB or server information within a config file either it be a mysql DB or a backend as service such as firebase.
